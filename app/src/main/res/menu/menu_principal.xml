@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemAtualizar"
+        android:icon="@drawable/atualizar_icone"
+        android:orderInCategory="200"
+        android:visible="false"
+        android:title="@string/update"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/itemAdicionar"
+        android:icon="@drawable/adicionar_icone"
+        android:orderInCategory="200"
+        android:visible="true"
+        android:title="@string/upload"
+        app:showAsAction="ifRoom" />
+</menu>

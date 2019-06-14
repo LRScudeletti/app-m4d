@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lytPattern"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f9f9">
+
+    <LinearLayout
+        android:id="@+id/lytPatternColor"
+        android:layout_width="10dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/lytPatternColorDraw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytPatternText"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_toLeftOf="@+id/lytGrab"
+        android:layout_toRightOf="@+id/lytPatternColor"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_toStartOf="@+id/lytGrab"
+        android:layout_toEndOf="@+id/lytPatternColor"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:id="@+id/textViewTimeRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:textColor="#666666"
+            android:textSize="12sp"
+            android:paddingEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytGrab"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:paddingEnd="10dp"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:id="@+id/imageViewGrab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mover_icone"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+
+</RelativeLayout>

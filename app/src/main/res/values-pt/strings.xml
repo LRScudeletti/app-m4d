@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">M4D</string>
+    <string name="navigation_drawer_open">Abrir menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+    <string name="nav_header_title">M4D</string>
+    <string name="subtitulo">Monitor For Database</string>
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+    <string name="action_settings">Configurações</string>
+    <string name="about">Sobre</string>
+    <string name="todo">TODO</string>
+    <string name="update">Atualizar dados</string>
+    <string name="upload">Carregar arquivo</string>
+    <string name="imformation">Informações</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="bemvindo">Bem-vindo (a) ao M4D. Selecione um arquivo para iniciar.</string>
+
+    <string name="tela_sobre">Sobre</string>
+    <string name="logo_descricao">Logo do aplicativo</string>
+    <string name="versão">Versão %1$s</string>
+</resources>
