@@ -1,0 +1,32 @@
+{
+    "resultado": [
+        {
+            "id-id-#32CD32": 20,
+            "Percentual_do_Evento-Percentual_Event-#32CD32": "36.91",
+            "Percentual_Total-Percentual_Total-#32CD32": "72.71",
+            "Percentual_do_Evento_de_Wait-Wait_Event_Percentual-#32CD32": "15.00",
+            "Data_e_Hora-Date_and_Time-#32CD32": "06/05/2019 08:37:19",
+            "Nome_da_Inst?ncia-Instance_Name-#32CD32": "JSON EXAMPLE",
+            "Status_do_Database-Database_Status-#32CD32": "ACTIVE",
+            "Status_Geral-General_Status-#32CD32": "OPEN",
+            "Classe_De_Evento-Event_Class-#32CD32": "CPU",
+            "Tipo_do_evento-Event_Type-#32CD32": "server CPU",
+            "Tempo_do_Evento-Event_Time-#32CD32": "6808930,42",
+            "Natureza_do_Evento-Event_Nature-#4db8ff": "Idle",
+            "Total_do_Evento-Event_Totals-#4db8ff": "5724516114",
+            "Tempo_do_Evento_de_Wait-Wait_Event_Time-#4db8ff": "39228714403",
+            "Top_Query-Top_Query-#4db8ff": "DECLARE iRetorno INTEGER; BEGIN EXECUTE IMMEDIATE",
+            "Sql_Id-Sql_Id-#4db8ff": "amk26b5grhfca",
+            "Tempo_Decorrido-Elapsed_Time-#4db8ff": "1161665561036",
+            "First_Load-First_Load-#4db8ff": "2019-01-12/23:01:56",
+            "Last_Load-Last_Load-#4db8ff": "2019-05-03/15:53:13",
+            "SID-SID-#ffff00": "NONE",
+            "Serial-Serial-#ffff00": "NONE",
+            "Schema-Schema-#ffff00": "NONE",
+            "OS_USER-OS_USER-#ffff00": "NONE",
+            "SQL-SQL-#ffff00": "NONE",
+            "QUERY-QUERY-#ffff00": "NONE",
+            "Versao_DB-DB_Version-#ffff00": "Oracle Database 11g Release 11.2.0.4.0 - 64bit Production"
+        }
+    ]
+}

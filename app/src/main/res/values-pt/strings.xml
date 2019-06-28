@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">M4D</string>
+    <string name="navigation_drawer_open">Abrir menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+    <string name="nav_header_title">M4D</string>
+    <string name="subtitulo">Monitor For Database</string>
+    <string name="nav_header_desc">Cabeçalho de navegação</string>
+    <string name="action_settings">Configurações</string>
+    <string name="about">Sobre</string>
+    <string name="todo">TODO</string>
+    <string name="update">Atualizar dados</string>
+    <string name="upload">Carregar arquivo</string>
+    <string name="imformation">Informações</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="bemvindo">Bem-vindo (a) ao M4D. Selecione um arquivo para iniciar.</string>
+
+    <string name="em_uso">Em uso</string>
+    <string name="disponivel">Disponível</string>
+    <string name="data_atualizacao_app">Última Atualização</string>
+    <string name="intervalo_atualizacao">Intervalo atualização automática (segundos)</string>
+
+    <string name="tela_configuracoes">Configurações</string>
+    <string name="path">Diretório atualização automática</string>
+    <string name="botao_salvar">Salvar</string>
+    <string name="reiniciar_app">Reinicie o aplicativo para que as atualizações entrem em vigor.</string>
+    <string name="informe_diretorio">Por favor, Informe um diretório.</string>
+    <string name="invalido">Arquivo ou diretório inválido!</string>
+
+
+    <string name="tela_sobre">Sobre</string>
+    <string name="logo_descricao">Logo do aplicativo</string>
+    <string name="versão">Versão %1$s</string>
+</resources>
