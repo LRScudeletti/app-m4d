@@ -2,8 +2,8 @@
     <string name="app_name">M4D</string>
     <string name="navigation_drawer_open">Open navigation menu</string>
     <string name="navigation_drawer_close">Close navigation menu</string>
-    <string name="nav_header_title">M4D</string>
-    <string name="subtitulo">Monitor For Database</string>
+    <string name="nav_header_title">M4D Pro</string>
+    <string name="subtitulo">Monitor For Database Pro</string>
     <string name="nav_header_desc">Navigation Header</string>
     <string name="action_settings">Settings</string>
     <string name="about">About</string>
@@ -12,7 +12,7 @@
     <string name="upload">Upload file</string>
     <string name="imformation">Information</string>
     <string name="dashboard">Dashboard</string>
-    <string name="bemvindo">Welcome to M4D. Select a file to start.</string>
+    <string name="bemvindo">Welcome to M4D Pro. Select a file to start.</string>
 
     <string name="em_uso">In use</string>
     <string name="disponivel">Available</string>
@@ -28,5 +28,10 @@
 
     <string name="tela_sobre">About</string>
     <string name="logo_descricao">Application logo</string>
-    <string name="versão">Version %1$s</string>
+    <string name="versão">Version %1$s Pro</string>
+    <string name="site">www.monitor4database.com</string>
+    <string name="politicas_privacidade">Privacy Policies</string>
+
+    <string name="adview_principal">ca-app-pub-1515356271188004/8974667852</string>
+    <string name="adview_dashboard">ca-app-pub-1515356271188004/5606268489</string>
 </resources>

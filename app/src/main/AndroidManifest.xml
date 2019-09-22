@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.monitorfordata.m4d">
+    package="com.monitorfordata.m4dpro">
 
     <dist:module dist:instant="true" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="false"
@@ -16,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashActivity"
+            android:name="com.monitorfordata.m4dpro.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
@@ -28,16 +30,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PrincipalActivity"
+            android:name="com.monitorfordata.m4dpro.PrincipalActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ConfiguracoesActivity"
+            android:name="com.monitorfordata.m4dpro.ConfiguracoesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SobreActivity"
+            android:name="com.monitorfordata.m4dpro.SobreActivity"
             android:screenOrientation="portrait" />
 
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1515356271188004~9364167207"/>
     </application>
 
 </manifest>

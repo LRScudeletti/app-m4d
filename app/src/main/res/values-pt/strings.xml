@@ -2,8 +2,8 @@
     <string name="app_name">M4D</string>
     <string name="navigation_drawer_open">Abrir menu de navegação</string>
     <string name="navigation_drawer_close">Fechar menu de navegação</string>
-    <string name="nav_header_title">M4D</string>
-    <string name="subtitulo">Monitor For Database</string>
+    <string name="nav_header_title">M4D Pro</string>
+    <string name="subtitulo">Monitor For Database Pro</string>
     <string name="nav_header_desc">Cabeçalho de navegação</string>
     <string name="action_settings">Configurações</string>
     <string name="about">Sobre</string>
@@ -12,7 +12,7 @@
     <string name="upload">Carregar arquivo</string>
     <string name="imformation">Informações</string>
     <string name="dashboard">Dashboard</string>
-    <string name="bemvindo">Bem-vindo (a) ao M4D. Selecione um arquivo para iniciar.</string>
+    <string name="bemvindo">Bem-vindo (a) ao M4D Pro. Selecione um arquivo para iniciar.</string>
 
     <string name="em_uso">Em uso</string>
     <string name="disponivel">Disponível</string>
@@ -26,8 +26,12 @@
     <string name="informe_diretorio">Por favor, Informe um diretório.</string>
     <string name="invalido">Arquivo ou diretório inválido!</string>
 
-
     <string name="tela_sobre">Sobre</string>
     <string name="logo_descricao">Logo do aplicativo</string>
-    <string name="versão">Versão %1$s</string>
+    <string name="versão">Versão %1$s Pro</string>
+    <string name="site">www.monitor4database.com</string>
+    <string name="politicas_privacidade">Políticas de Privacidade</string>
+
+    <string name="adview_principal">ca-app-pub-1515356271188004/8974667852</string>
+    <string name="adview_dashboard">ca-app-pub-1515356271188004/5606268489</string>
 </resources>

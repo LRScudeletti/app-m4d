@@ -10,7 +10,7 @@
     android:focusableInTouchMode="true"
     android:orientation="vertical">
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -24,9 +24,9 @@
             android:scrollbars="vertical"
             tools:ignore="Autofill" />
 
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_marginTop="10sp"
         android:layout_height="wrap_content">
@@ -41,7 +41,7 @@
             android:scrollbars="vertical"
             tools:ignore="Autofill" />
 
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btnSalvvar"
